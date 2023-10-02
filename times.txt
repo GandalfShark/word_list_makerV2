@@ -1,0 +1,17 @@
+
+time trials:
+# of processors - seconds No chunks
+5 - 0.36, 0.37, 0.33, 0.32, 0.33
+4 - 0.32, 0.33, 0.34, 0.32
+3 - 0.31, 0.31, 0.31, 0.31, 0.30
+2 - 0.28, 0.28, 0.28, 0.29, 0.32, 0.29, 0.29
+1 - 0.31, 0.30, 0.29, 0.26, 0.28, 0.33
+The more processors the slower it runs, :(
+boo-unrs! so far 2 is the magic number...
+
+with chunks:
+2 - 0.22, 0.20, 0.21
+3 - 0.26, 0.22,
+
+with 500 word chunk and 3 processors:
+0.20, 0.19, 0.21, 0.20, 0.19
